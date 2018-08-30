@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(images/bg.jpg) ; -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+}
+
+.cont-satu{
+  background: #fff;
+  border-radius: 7px;
+}
+.cont-satu-text{
+  padding:20px 15px;
+}
+.cont-satu-input{
+  background: #eee;
+  padding:10px 15px;
+}
+.submit-last{
+  background: #04B4AE;
+  border:none;
+  color:#fff;
+  border-radius: 30px;
+  font-size:12px;
+  padding:15px 25px;
+  margin-bottom:15px;
+  text-align: center;
+  font-weight: bold;
+}
+.submit-last:hover{
+  transition:0.4s;
+  background: #088A85;
+}
+.login-with-selectiong-btn{
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  color:#aaa;
+  font-size: 15px;
+  padding:5px 14px;
+  text-align: center;
+  border:none;
+  border:1px solid #aaa;
+  margin:4px;
+}
+.login-with-selectiong-btn:hover{
+   background: #000;
+      transform:  rotate(-1deg);
+    -webkit-transform:  rotate(-1deg);
+    -o-transform:  rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+}
+textarea, input {
+  outline: none;
+  box-shadow: none;
+}
+.form-control{
+  margin-bottom:17px;
+}
+.inp{
+padding:6px 15px;
+margin-bottom:18px;
+border-radius: 4px;
+border:none;
+border:1px solid #777;
+color:#fff;
+width:100%;
+background: rgba(255, 255, 255, 0.2);
+
+}
+.inp-2-left{
+padding:6px 15px;
+float: left;
+margin-bottom:18px;
+border-radius: 4px;
+border:none;
+border:1px solid #777;
+color:#fff;
+width:48%;
+background: rgba(255, 255, 255, 0.2);
+
+}
+.inp:focus{
+  transition:0.4s;
+  background: rgba(255, 255, 255, 0.1);
+  padding:10px 15px;
+}
+.inp-2-left:focus{
+  transition:0.4s;
+  background: rgba(255, 255, 255, 0.1);
+  padding:10px 15px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ddd;
+    font-family: Arial;
+    font-weight: bold;
+    font-size:12px;
+    opacity: 1; /* Firefox */
+}
+.sa{
+color:#088A85;
+
+}
+.sa:hover{
+font-weight: bold;
+text-decoration: none;
+color:#0B615E;
+}
+.sa:focus{
+  text-decoration: none;
+  color:#aaa;
+}
+.salogo{
+color:#04B4AE;
+
+}
+.salogo:hover{
+font-weight: bold;
+text-decoration: none;
+color:#088A85;
+}
+.salogo:focus{
+  text-decoration: none;
+  color:#aaa;
+}
+.logo-icon{
+  border:1px solid #555;width:31px;text-align:center;padding:7px 0px;border-radius:50%;font-size:14px;margin:7px;
+}
+.logo-icon:hover{
+   background: rgba(0, 0, 0, 0.3);
+   transition:0.4s;
+   -webkit-transform:rotate(360deg); 
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+-ms-transform:rotate(360deg);
+transform:rotate(360deg);
+}
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+background-image: -webkit-linear-gradient(left, #333, #ddd, #333);
+
+}
+.sosmed-log{
+  padding:0px 10px;
+  height:56px;
+  width:50px;
+margin: 0 auto; text-align: center;
+}
+.sosmed-log:hover{
+  -webkit-transform: scale(1.2) rotate(1080deg);
+-moz-transform: scale(1.2) rotate(1080deg);
+-o-transform: scale(1.2) rotate(1080deg);
+-ms-transform: scale(1.2) rotate(1080deg);
+transform: scale(1.2) rotate(1080deg);
+cursor:pointer;
+transition:0.4s;
+}
+
